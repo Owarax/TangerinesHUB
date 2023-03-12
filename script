@@ -1,0 +1,8 @@
+if game.PlaceId == 11385110930 then
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "TangerinesHUB/BETA", HidePremium = false, SaveConfig = true, ConfigFolder = "TangerinesHUB"})
+
+
+
+OrionLib:Init()
+end
